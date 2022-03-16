@@ -1,0 +1,253 @@
+*{
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  box-sizing: border-box;
+}
+.comingContainer{
+  height: 100vh;
+  width:100%;
+
+}
+
+.comingContainer .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.countdownContainer{
+  padding-top: 30px;
+  color: white;
+}
+.first {
+  border-left: 0 !important;
+}
+.content{
+  padding-bottom: 28px;
+  text-align: center;
+}
+.countdownContainer div{
+  border-left: 1px dotted rgba(218,218,218,0.8);
+    color: #dadada;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 42px 12px 28px;
+    text-transform: uppercase;
+    width: 25%;
+}
+.countdownContainer .value{
+  color: #fff;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1;
+    padding-bottom: 21px;
+}
+.overlay {
+  /*
+  */
+  background: rgba(0,0,0,.5) url("/public/overlay.png") repeat;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.backstretch{
+  left: 0px;
+    top: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -999999;
+    position: fixed;
+}
+.backstretch-item{
+  position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    z-index: -999999;
+}
+.img-bg{
+  position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 100vh;
+    max-width: none;
+    
+}
+
+.subscribe_form {
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px 0px rgba(10, 6, 20, 0.24);
+}
+.subscribe_now h6 {
+  padding: 15px;
+  font-size:16px;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+}
+.subscribe_form:focus {
+  outline: none;
+}
+.subscribe_form .form-control {
+  border: none;
+}
+.subscribe_form .form-control:focus {
+  box-shadow: none;
+}
+.subscribe_form input {
+  opacity: .5;
+  height: 44px;
+  transition: all ease 0.5s;
+}
+.subscribe_form input:focus {
+  opacity: 1;
+  height: 44px;
+}
+.subscribe_form input:hover {
+  opacity: 1;
+  height: 44px;
+}
+.subscribe_form button {
+  border: none;
+  height: 44px;
+  opacity: .9;
+  background-color: #ED1E24;
+  color: #fff;
+  margin: -1px;
+  border-radius: 0;
+  width: 135px;
+  text-transform: uppercase;
+  position: relative;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+.subscribe_form button:hover, .subscribe_form button:focus, .subscribe_form button:active, .subscribe_form button:visited {
+  color: #fff;
+  background-color: rgba(#ED1E24, 0.5);
+  opacity: 1;
+  outline: none;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+.subscribe_form button:hover:before, .subscribe_form button:focus:before, .subscribe_form button:active:before, .subscribe_form button:visited:before {
+  background-color: rgba(#ED1E24, 0.77);
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+.subscribe_form button:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 1px;
+  background-color: #ED1E24;
+  width: 100%;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+.subscribe_form .input-group-btn:last-child > .btn, .subscribe_form .input-group-btn:last-child > .btn-group {
+  z-index: 2;
+  margin-left: 0px;
+}
+
+.socialMediaContainer{
+  position: absolute;
+  right: 0;
+  left:auto;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialMediaBtnContainer{
+  opacity: .5;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.socialMediaBtnContainer:hover{
+  opacity: 1;
+}
+.css-cpgvjg-MuiSnackbar-root {
+  bottom: auto;
+  left: 24px;
+  right: auto;
+  top: 15px;
+}
+
+@media (min-width: 600px)
+{
+.snack-container .css-cpgvjg-MuiSnackbar-root {
+  bottom: auto !important;
+  left: 24px !important;
+  right: auto !important;
+  top: 15px !important;
+}
+}
+.photoby{
+  color: #fff;
+  font-size: 12px;
+  float:right;
+  position: absolute;
+  opacity:.5;
+  bottom:5px;
+  right:5px;
+  top:auto;
+  left: auto;
+}
+.comingSoonLogoContainer{
+  position: absolute;
+  bottom: 50px;
+  top:auto;
+  left: 50px;
+  width:0;
+  background-color:rgba(255,255,255,0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comingSoonLogo{
+  height: 70px;
+}
